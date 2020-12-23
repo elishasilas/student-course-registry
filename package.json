@@ -1,0 +1,27 @@
+{
+  "name": "object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elishasilas/student-course-registry.git"
+  },
+  "keywords": [],
+  "author": "Elisha.K.Silas <elishasilas87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elishasilas/student-course-registry/issues"
+  },
+  "homepage": "https://github.com/elishasilas/student-course-registry#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "gulp": "^4.0.2"
+  }
+}
